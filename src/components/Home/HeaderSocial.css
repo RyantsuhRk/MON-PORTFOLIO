@@ -1,0 +1,11 @@
+
+.home-social a:hover {
+    transition:.9s;
+    background-color: rgb(44, 88, 211);
+ }
+
+a.active { 
+    transition:.5s;
+    background-color:rgb(44, 88, 211);
+    border-radius:50%;
+}

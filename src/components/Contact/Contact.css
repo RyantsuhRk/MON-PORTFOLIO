@@ -1,0 +1,126 @@
+[data-aos=fade-right] {
+  transform: translate3d(-18rem, 0, 0);
+}
+[data-aos=fade-left] {
+  transform: translate3d(18rem, 0, 0);
+}
+
+.contact{
+    width:100%;
+    min-height: 100vh;
+    margin:auto;
+    padding:10px;
+    display:flex;
+    align-items: center;
+  }
+/* .contact .titre h1{
+   color:white;
+   margin:auto;
+   border-bottom: 3px solid var(--color-primary);
+   width:19rem;
+   padding-bottom:1.5rem;
+} */
+
+.contact-description{
+  max-width:27rem;
+  margin:auto;
+}
+
+.btn-envoyer{
+  background: transparent;
+  border:2px solid #4db5ff;
+  transition:1s;
+  margin-left:5px;
+  padding-left:0;
+  width:150px;
+  height:46px;
+  text-decoration: none;
+  border-radius:20px;
+  line-height:0px;
+  position:relative;
+  overflow: hidden;
+  z-index: 20;
+  font-weight: 800;
+}
+.text-btn-envoyer{
+  color:white;
+  position:absolute;
+  z-index: 30;
+  margin-left:-35px;
+}
+.couche-btn-envoyer{
+  background:#4db5ff;
+  transition:1s;
+  top:0;
+  left:0;
+  width:0px;
+  height:46px;
+  position:absolute;
+  z-index: 1;
+}
+.btn-envoyer:hover .couche-btn-envoyer{
+  width:150px;
+  transition: .7s;
+}
+
+
+  .formulaire-contact{
+    display: flex;
+    flex-direction: column;
+    gap:1.2rem;
+  }
+  .input-objet{
+    height:4rem;
+  }
+  
+  .nom-mail{
+    display:flex;
+    column-gap:1.3rem;
+  }
+  .nom-mail input {
+    height:4rem;
+  }
+  
+  .textarea-form{
+     padding:10px;
+     resize: none;
+     height:10rem;
+  }
+  .formulaire input[type="date"]{
+      color:gray;
+  }
+  .formulaire label{
+      color:white;
+      margin-top:5px;
+  }
+  .phone-icon,.home-icon,.envelope-icon{
+    color:white;
+    font-size:2.5rem;
+    margin-right: 10px;
+    margin-top:-10px;
+  }
+  
+  .Numero,.Email,.Home-adress{
+    display:flex;
+  }
+  .Numero,.Email{
+    margin-top: 25px;
+  }
+  .Adresse{
+    margin-top:70px;
+    padding:10px;
+  }
+  .lien{
+    text-decoration:none;
+    color:#4db5ff;
+    transition:.6s;
+  }
+  .lien:hover{
+    transition:.6s;
+    color:#67a9d8;
+    letter-spacing: 1.05px;
+  }
+  
+  
+
+  

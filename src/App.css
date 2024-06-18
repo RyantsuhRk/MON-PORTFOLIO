@@ -1,0 +1,21 @@
+
+.class-appDark{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background:linear-gradient(90deg, var(--color-bg-variant),var(--color-bg));
+    width:100%;
+    overflow: hidden;
+}
+.class-appLight{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background:rgb(238, 236, 236);
+    width:100%;
+    overflow: hidden;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+p,h1,h2,h3,h4,h5{
+    color:white;
+}

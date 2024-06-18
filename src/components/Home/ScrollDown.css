@@ -1,0 +1,16 @@
+
+.mouse-wrapper{
+    transform: rotate(-90deg);
+    text-decoration: none;
+    color:var(--color-primary);
+    font-weight: bolder;
+    margin-left:70%;
+    position:relative;
+    z-index: 10;
+}
+.contenu-scroll{
+    position:relative;
+    z-index: 9;
+}
+
+

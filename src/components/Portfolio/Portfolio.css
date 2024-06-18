@@ -1,0 +1,134 @@
+[data-aos=fade-top] {
+    transform: translate3d(0,18rem, 0);
+  }
+  [data-aos=fade-bottom] {
+    transform: translate3d(0,-18rem, 0);
+  }
+
+.portfolio{
+    padding-bottom: 20px;
+    min-height:100vh;
+    padding-top:40px;
+    margin:auto;
+}
+.cart{
+    width:96%;
+    margin:auto;
+}
+.cart ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-top:20px;
+    padding-bottom: 20px;
+    padding-inline-start: 0;
+}
+.cart1{
+    list-style: none;
+    width:21.8rem;
+    height:30rem;
+    background:rgba(21, 68, 129,.7);
+    margin-top:3rem;
+    padding:.5rem;
+    transition:.6s;
+    box-shadow:1px 1px 8px 1px rgba(128, 128, 128, 0.27);
+}
+.cart1:hover{
+    background:rgba(21, 68, 129);
+    transition:.6s;
+}
+.content-cart1{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.image-porfolio{
+    width:100%;
+    height:100%;
+    flex:1; 
+}
+
+.portfolio-content{
+    flex:1;
+    width:100%;
+    transition:1.9s;
+}
+.portfolio-description{
+    
+    width:100%;  
+}
+.phrase-description{
+    margin-top:30px;
+}
+.phrase-technoUtiliser{
+    margin-top:10px;
+}
+.phrase-description,.phrase-technoUtiliser{
+    height:70px;
+    overflow: auto;
+    padding:10px;
+    background: rgb(30, 68, 119);
+    padding:5px;
+    text-align: justify;
+}
+.phrase-description::-webkit-scrollbar,.phrase-technoUtiliser::-webkit-scrollbar{
+    width:0.4rem;
+    
+}
+.phrase-description::-webkit-scrollbar-thumb,.phrase-technoUtiliser::-webkit-scrollbar-thumb{
+    width:0.5rem;
+    background:var(--color-primary);
+    border-radius:1rem;   
+}
+.image-porfolio img{
+    width:100%;
+    height:100%;
+    
+}
+.portfolio-titre p{
+    text-align: center;
+}
+.portfolio-name{ 
+    position:absolute;
+    margin-left:30px;
+    z-index: 20;
+    transform: translate(0,-50%);
+    color:white;
+    font-weight:800;
+    padding:5px 12px;
+    background: rgb(19, 83, 19);
+}
+.bg-success {
+    --bs-bg-opacity: 0;
+}
+
+.portfolio-titre h1{
+    padding-bottom: 10px;
+    border-bottom:3px solid gray;
+    width:180px;
+    margin:auto;
+    text-align: center;
+    margin-top:20px;
+}
+.buttonGroup{
+    width:100%;
+    height:40px;
+    margin-top:10px;
+    display:flex;
+    gap:10px;
+    justify-content: right;
+    padding-right:15px;
+}
+
+.github-btn{
+    text-transform: capitalize;
+    color:white; 
+    padding-left:0;
+    text-decoration: none;
+  }
+
+
+

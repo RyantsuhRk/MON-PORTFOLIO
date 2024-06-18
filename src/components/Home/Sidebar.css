@@ -1,0 +1,16 @@
+
+ .logo{
+   color:var(--color-primary);
+    font-size:2rem;
+    transition: .5s;
+ }
+ .logo:hover{
+   color:rgb(84, 137, 145);
+   transition: .5s;
+ }
+.tiret-vertical{
+  width:2px;
+  height: 3rem;
+  background:rgb(130, 142, 161);
+  margin: auto;
+}

@@ -1,0 +1,69 @@
+.footer{
+  width:100%;
+  padding:3rem;
+  padding-bottom:8rem;
+  background:linear-gradient(90deg,var(--color-bg), var(--color-bg-variant));
+}
+
+.footer-container{
+  width:100%;
+  margin-bottom:2.5rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-home{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:1rem;
+}
+.reseaux{
+ flex:1;
+  margin:auto;
+  display:flex;
+  justify-content: space-evenly;
+  gap:2rem;
+  margin-top:4rem;
+}
+.footer-home a{
+  color:white;
+  font-size: 20px;
+  transition:.4s;
+  padding:.5rem 1.2rem;
+  background:var(--color-primary-variant);
+}
+.footer-home a:hover{
+  background:var(--color-primary);
+  color:white;
+  transition:.4s;
+}
+.footer .reseaux a{
+   text-decoration: none;
+   background: white;
+   border-radius: 25%;
+   transition:.6s;
+}
+.copyring{
+  text-align:center;
+}
+.icon-footer{
+  font-size:40px;
+}
+.icon-twiter{
+  color:rgb(0, 255, 242);
+  margin:0 2px 0 2px;
+}
+.icon-youtube{
+  color:red;
+  margin:0 2px 0 2px;
+}
+.icon-instagram{
+  color:purple;
+}
+.footer .reseaux a:hover .icon-footer{
+   transform: rotate(360deg);
+  
+   transition:.6s;
+}

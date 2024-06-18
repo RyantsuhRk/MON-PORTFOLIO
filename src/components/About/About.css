@@ -1,0 +1,95 @@
+
+ /***CSS VAOVAO**/
+ .About-container{
+    justify-content: center;
+    padding-top:50px;
+    min-height: 100vh;
+    width:100%;
+}
+.titreApropos{
+  font-size: 2.5rem;
+  padding:1rem;
+  width:22rem;
+  margin:auto;
+  border-bottom:3px solid var(--color-primary);
+}
+@media(max-width:576px){
+  .titreApropos{
+    font-size: 2rem;
+    padding:1rem;
+    width:18rem;
+    margin:auto;
+    border-bottom:3px solid var(--color-primary);
+  }
+}
+ .about-container{
+    display: flex;
+    margin-top: 10rem;
+    padding:1rem;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+ } 
+ .width-avatar-class{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    
+ }
+ .about-div{
+    display:flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    width:100%;
+ }
+ .experiences{
+   width:100%;
+   display: flex;
+   justify-content: space-around;
+   gap:2rem;
+ }
+ 
+ .iconAbout{
+    font-size:2rem;
+ }
+ .btn-letsTalk{
+    background: transparent;
+    color:white; 
+    border:2px solid #4db5ff;
+    transition:1s;
+    margin-top:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:10rem;
+    height:3.2rem;
+    line-height: 3.2rem;
+    text-decoration: none;
+    border-radius:2rem;
+    position:relative;
+    overflow: hidden;
+    z-index: 20;
+    
+  }
+  .text-btn-talk{
+    color:white;
+    z-index: 30; 
+  }
+  .couche-btn-talk{
+    background:#4db5ff;
+    transition:1s;
+    top:0;
+    left:0;
+    width:0px;
+    height:3.2rem;
+    position:absolute;
+    z-index: 1;
+    
+  }
+  .btn-letsTalk:hover .couche-btn-talk{
+    width:100%;
+    transition: .7s;
+  }
+  .textProjetExperience{
+    margin-top:3rem;
+  }
