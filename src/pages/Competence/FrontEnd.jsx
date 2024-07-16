@@ -1,8 +1,11 @@
 import React from 'react'
 import { FrontList1,FrontList2} from './FontList'
+import { useSelector } from 'react-redux'
 
 
 const FrontEnd = () => {
+  const theme=useSelector(state=>state.theme.isDark)
+  
   return (
     <div className='frontEnd'>
           <ul className='p-0'>
@@ -10,7 +13,7 @@ const FrontEnd = () => {
               <li key={liste.id} className='liste'>
                 <div className='liste-modules d-flex'>
                        <h3>{liste.icon}</h3>
-                       <h3 className='titre-module text-primary'>{liste.titre}</h3>
+                       <h4 className={`titre-module ${theme? "text-primary": "text-white"}`}>{liste.titre}</h4>
                 </div>
                 <div className='front-value'>
                   <p style={{
@@ -29,7 +32,7 @@ const FrontEnd = () => {
               <li key={liste.id} className='liste'>
                 <div className='liste-modules d-flex'>
                      <h3>{liste.icon}</h3>
-                     <h3 className='titre-module text-primary'>{liste.titre}</h3>
+                     <h4 className={`titre-module ${theme? "text-primary": "text-white"}`}>{liste.titre}</h4>
                 </div>
                 <div className='front-value'>
                   <p style={{

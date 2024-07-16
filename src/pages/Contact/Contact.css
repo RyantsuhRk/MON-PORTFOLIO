@@ -5,21 +5,22 @@
   transform: translate3d(18rem, 0, 0);
 }
 
+.bgContactLight{
+  background:linear-gradient(90deg, var(--color-bg-variant),var(--color-bg));
+}
+.bgContactDark{
+  background:linear-gradient(90deg,rgb(26, 25, 25),black);
+}
 .contact{
     width:100%;
     min-height: 100vh;
     margin:auto;
-    padding:10px;
+    overflow: hidden;
+    padding-top:3rem;
+    padding-bottom: 3rem;
     display:flex;
     align-items: center;
   }
-/* .contact .titre h1{
-   color:white;
-   margin:auto;
-   border-bottom: 3px solid var(--color-primary);
-   width:19rem;
-   padding-bottom:1.5rem;
-} */
 
 .contact-description{
   max-width:27rem;
@@ -62,7 +63,16 @@
   width:150px;
   transition: .7s;
 }
-
+.formContainer{
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.phoneSvg{
+   stroke: white;
+   position:absolute;
+}
 
   .formulaire-contact{
     display: flex;

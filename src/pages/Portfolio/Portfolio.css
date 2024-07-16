@@ -4,12 +4,19 @@
   [data-aos=fade-bottom] {
     transform: translate3d(0,-18rem, 0);
   }
-
+.bgPortfolioLight{
+    background:linear-gradient(90deg,var(--color-bg), var(--color-bg-variant));
+ }
+.bgPortFolioLight{
+  background:linear-gradient(90deg,black,rgb(26, 25, 25));
+ }
 .portfolio{
-    padding-bottom: 20px;
+    padding-top:3rem;
+    padding-bottom: 3rem;
     min-height:100vh;
     padding-top:40px;
     margin:auto;
+    overflow: hidden;
 }
 .cart{
     width:96%;

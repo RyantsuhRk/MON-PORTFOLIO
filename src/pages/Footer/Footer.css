@@ -1,8 +1,15 @@
-.footer{
+.footerLight{
   width:100%;
   padding:3rem;
   padding-bottom:8rem;
   background:linear-gradient(90deg,var(--color-bg), var(--color-bg-variant));
+}
+.footerDark{
+  width:100%;
+  padding-top:3rem;
+    padding-bottom: 3rem;
+  padding-bottom:8rem;
+  background:linear-gradient(90deg,black,rgb(26, 25, 25));
 }
 
 .footer-container{
@@ -62,8 +69,16 @@
 .icon-instagram{
   color:purple;
 }
-.footer .reseaux a:hover .icon-footer{
+.reseaux a{
+  background: #243da067;
+  width:3rem;
+  height:3rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:2rem;
+}
+.reseaux a:hover .icon-footer{
    transform: rotate(360deg);
-  
    transition:.6s;
 }

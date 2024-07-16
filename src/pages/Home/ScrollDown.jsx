@@ -8,11 +8,11 @@ import 'aos/dist/aos.css'
 const ScrollDown = () => {
 
   useEffect(() => {
-    Aos.init({duration: 3000})
+    Aos.init({duration: 2000})
    },[])
 
   return (
-    <div className='contenu-scroll'  data-aos="fade-left">
+    <div className='contenu-scroll'  data-aos="fade-scroll">
            <a href='#About' className='mouse-wrapper'>
                Scroll Down
            </a>

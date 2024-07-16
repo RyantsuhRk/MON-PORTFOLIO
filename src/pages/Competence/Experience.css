@@ -1,29 +1,38 @@
-
+.bgExperienceLight{
+    background:linear-gradient(90deg, var(--color-bg-variant),var(--color-bg));
+}
+.bgExperienceDark{
+    background:linear-gradient(90deg,rgb(26, 25, 25),black);
+}
+.bgExpDark{
+    background: rgba(37, 91, 121, 0.385);  
+}
  .my-experience{
     margin:auto;
     min-height: 100vh;
     padding-top:3rem;
+    padding-bottom: 5rem;
+    width:100%;
+    overflow: hidden;
 }
 
 .descri{
     margin:2rem 1rem;
 }
-.experience-content{
-    display:flex;
-    justify-content: space-evenly; 
-    flex-wrap: wrap;
-    gap:1rem;
-    width:100%;
-    margin-top:3.5rem;
-    padding:0 1rem;
-    gap:1rem;
-}
- .dev-titre{
+
+ .dev-titreLight{
     margin-top:1rem;
     margin-bottom:30px;
     color:rgb(66, 129, 201);
     width:10rem;
     border-bottom: 2px solid rgb(66, 129, 201);
+}
+.dev-titreDark{
+    margin-top:1rem;
+    margin-bottom:30px;
+    color:white;
+    width:10rem;
+    border-bottom: 2px solid white;
 }
 .frontEnd ,.backEnd{
     display:grid;

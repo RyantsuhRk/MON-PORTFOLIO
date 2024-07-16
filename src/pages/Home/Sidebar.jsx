@@ -10,7 +10,7 @@ import 'aos/dist/aos.css'
 const Sidebar = () => {
 
    useEffect(() => {
-      Aos.init({duration: 2000})
+      Aos.init({duration:2000})
      },[])
 
 
